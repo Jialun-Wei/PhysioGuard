@@ -27,14 +27,8 @@ out/
 env/
 .env
 
-# --- Local Data (数据太大，不要上传到GitHub，除非是小的样例) ---
-# 我们通常保留 data/ 文件夹结构，但忽略里面的大文件
-data/*.parquet
-data/*.csv
-data/*.log
-
 # --- Streamlit ---
 .streamlit/secrets.toml
 
-# --- Mac OS (如果你用Mac) ---
+# --- Mac OS ---
 .DS_Store
